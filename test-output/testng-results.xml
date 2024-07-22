@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-22T22:12:42 ICT" name="Default suite" finished-at="2024-07-22T22:12:42 ICT" duration-ms="118">
+    <groups>
+    </groups>
+    <test started-at="2024-07-22T22:12:42 ICT" name="Default test" finished-at="2024-07-22T22:12:42 ICT" duration-ms="118">
+      <class name="automation.testsuite.Day7_BTVN_Mang">
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day7_BTVN_Mang@3bb9a3ff]" started-at="2024-07-22T22:12:42 ICT" name="openBrowser" finished-at="2024-07-22T22:12:42 ICT" duration-ms="9" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="testCase_1()[pri:0, instance:automation.testsuite.Day7_BTVN_Mang@3bb9a3ff]" started-at="2024-07-22T22:12:42 ICT" name="testCase_1" finished-at="2024-07-22T22:12:42 ICT" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_1 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day7_BTVN_Mang@3bb9a3ff]" started-at="2024-07-22T22:12:42 ICT" name="closeBrowser" finished-at="2024-07-22T22:12:42 ICT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openBrowser()[pri:0, instance:automation.testsuite.Day7_BTVN_Mang@3bb9a3ff]" started-at="2024-07-22T22:12:42 ICT" name="openBrowser" finished-at="2024-07-22T22:12:42 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openBrowser -->
+        <test-method signature="testCase_2()[pri:0, instance:automation.testsuite.Day7_BTVN_Mang@3bb9a3ff]" started-at="2024-07-22T22:12:42 ICT" name="testCase_2" finished-at="2024-07-22T22:12:42 ICT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCase_2 -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day7_BTVN_Mang@3bb9a3ff]" started-at="2024-07-22T22:12:42 ICT" name="closeBrowser" finished-at="2024-07-22T22:12:42 ICT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.Day7_BTVN_Mang -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
