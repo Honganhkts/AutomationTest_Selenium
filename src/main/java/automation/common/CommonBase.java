@@ -8,7 +8,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 
 public class CommonBase {
 	public WebDriver driver;
-	public int initWaitTime = 25;
+	public int initWaitTime = 60;
 
 	public WebDriver initChromeDriver(String URL) {
 		ChromeOptions options = new ChromeOptions();
