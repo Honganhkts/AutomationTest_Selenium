@@ -7,5 +7,6 @@ public class CT_PageURLs {
 	public static String URL_SELENIUMEASY_4="https://demo.seleniumeasy.com/input-form-demo.html";
 	public static String URL_SELENIUMEASY_5="https://www.globalsqa.com/demo-site/select-dropdown-menu/";
 
-
+	public static String URL_ALADA="https://alada.vn/";
+	public static String URL_CODESTAR_lOGIN="http://test-system.crmstar.vn/";
 }
