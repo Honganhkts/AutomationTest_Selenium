@@ -1,21 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-08-21T08:18:12 ICT" name="Default suite" finished-at="2024-08-21T08:19:23 ICT" duration-ms="70416">
+  <suite started-at="2024-08-27T22:56:13 ICT" name="Default suite" finished-at="2024-08-27T22:59:52 ICT" duration-ms="218448">
     <groups>
     </groups>
-    <test started-at="2024-08-21T08:18:12 ICT" name="Default test" finished-at="2024-08-21T08:19:23 ICT" duration-ms="70416">
-      <class name="automation.testsuite.LoginTest">
-        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.LoginTest@1fa268de]" started-at="2024-08-21T08:18:12 ICT" name="openChrome" finished-at="2024-08-21T08:18:18 ICT" duration-ms="6176" status="PASS">
+    <test started-at="2024-08-27T22:56:13 ICT" name="Default test" finished-at="2024-08-27T22:59:52 ICT" duration-ms="218448">
+      <class name="automation.testsuite.Day14_BTVN">
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.Day14_BTVN@4567f35d]" started-at="2024-08-27T22:56:13 ICT" name="openChrome" finished-at="2024-08-27T22:56:39 ICT" duration-ms="25962" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChrome -->
-        <test-method signature="loginSuccessfully()[pri:0, instance:automation.testsuite.LoginTest@1fa268de]" started-at="2024-08-21T08:18:18 ICT" name="loginSuccessfully" finished-at="2024-08-21T08:19:23 ICT" duration-ms="64157" status="PASS">
+        <test-method signature="RegisterSuccessfully()[pri:1, instance:automation.testsuite.Day14_BTVN@4567f35d]" started-at="2024-08-27T22:56:39 ICT" name="RegisterSuccessfully" finished-at="2024-08-27T22:57:22 ICT" duration-ms="42583" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- loginSuccessfully -->
-      </class> <!-- automation.testsuite.LoginTest -->
+        </test-method> <!-- RegisterSuccessfully -->
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.Day14_BTVN@4567f35d]" started-at="2024-08-27T22:57:22 ICT" name="openChrome" finished-at="2024-08-27T22:57:44 ICT" duration-ms="22484" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="ChangeInformationUserFunction()[pri:2, instance:automation.testsuite.Day14_BTVN@4567f35d]" started-at="2024-08-27T22:57:44 ICT" name="ChangeInformationUserFunction" finished-at="2024-08-27T22:58:47 ICT" duration-ms="62776" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ChangeInformationUserFunction -->
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.Day14_BTVN@4567f35d]" started-at="2024-08-27T22:58:47 ICT" name="openChrome" finished-at="2024-08-27T22:59:09 ICT" duration-ms="22443" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="loginFunction()[pri:3, instance:automation.testsuite.Day14_BTVN@4567f35d]" started-at="2024-08-27T22:59:09 ICT" name="loginFunction" finished-at="2024-08-27T22:59:52 ICT" duration-ms="42117" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFunction -->
+      </class> <!-- automation.testsuite.Day14_BTVN -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
