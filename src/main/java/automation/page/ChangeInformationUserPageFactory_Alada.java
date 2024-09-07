@@ -27,6 +27,7 @@ public class ChangeInformationUserPageFactory_Alada {
 		btnSavePassword.click();
 		//subUser.click();
 		//thoat.click();
+		
 
 	}
 
