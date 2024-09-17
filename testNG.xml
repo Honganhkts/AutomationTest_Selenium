@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="TestSuite">
+
+	<test name="Regression test test suite on chrome">
+	<parameter name="browser" value="chrome"></parameter>
+		<classes>
+			<class name="automation.testsuite.Day18_BTVN1_TestSuit" /> 
+			<class name="automation.testsuite.Day18_BTVN2_TestSuit" /> 
+			<class name="automation.testsuite.Day17_BTVN_TestSuite" />
+		</classes>	
+	</test> 
+	
+	<test name="Regression test test suite on firefox">
+	<parameter name="browser" value="firefox"></parameter>
+		<classes>
+			<class name="automation.testsuite.Day18_BTVN1_TestSuit" /> 
+			<class name="automation.testsuite.Day18_BTVN2_TestSuit" /> 
+			<class name="automation.testsuite.Day17_BTVN_TestSuite" />
+		</classes>	
+	</test>
+	
+</suite> <!-- Suite -->

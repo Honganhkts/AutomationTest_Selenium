@@ -13,7 +13,7 @@ import automation.page.UpdatePassword_PageFactory_Day15;
 public class UpdatePasswordTestSuite_Day15 extends CommonBase{
 	@BeforeMethod
 	public void openFireFox() {
-		driver = initFirefoxDriver(CT_PageURLs.URL_TEDU);
+		driver = initMSEdgeDriver(CT_PageURLs.URL_TEDU);
 	}
 	@Test
 	public void updatePasswordSuccessfully() {

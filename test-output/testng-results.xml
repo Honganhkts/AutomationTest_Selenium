@@ -1,21 +1,149 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-09-07T15:58:39 ICT" name="Default suite" finished-at="2024-09-07T15:58:48 ICT" duration-ms="9612">
+  <suite started-at="2024-09-17T07:39:36 ICT" name="TestSuite" finished-at="2024-09-17T07:42:12 ICT" duration-ms="155949">
     <groups>
     </groups>
-    <test started-at="2024-09-07T15:58:39 ICT" name="Default test" finished-at="2024-09-07T15:58:48 ICT" duration-ms="9612">
-      <class name="automation.testsuite.Day16_BTVN3_GURU_TestSuite">
-        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.Day16_BTVN3_GURU_TestSuite@7ec7ffd3]" started-at="2024-09-07T15:58:39 ICT" name="openChrome" finished-at="2024-09-07T15:58:45 ICT" duration-ms="6570" status="PASS">
+    <test started-at="2024-09-17T07:39:36 ICT" name="Regression test test suite on chrome" finished-at="2024-09-17T07:40:52 ICT" duration-ms="75507">
+      <class name="automation.testsuite.Day17_BTVN_TestSuite">
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@3349e9bb]" started-at="2024-09-17T07:40:06 ICT" name="openChrome" finished-at="2024-09-17T07:40:13 ICT" duration-ms="7154" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openChrome -->
-        <test-method signature="verifyAlertMessage()[pri:1, instance:automation.testsuite.Day16_BTVN3_GURU_TestSuite@7ec7ffd3]" started-at="2024-09-07T15:58:45 ICT" name="verifyAlertMessage" finished-at="2024-09-07T15:58:48 ICT" duration-ms="2951" status="PASS">
+        <test-method signature="handleIframeMessage()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@3349e9bb]" started-at="2024-09-17T07:40:13 ICT" name="handleIframeMessage" finished-at="2024-09-17T07:40:21 ICT" duration-ms="7788" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAlertMessage -->
-      </class> <!-- automation.testsuite.Day16_BTVN3_GURU_TestSuite -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- handleIframeMessage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@3349e9bb]" started-at="2024-09-17T07:40:21 ICT" name="closeBrowser" finished-at="2024-09-17T07:40:21 ICT" duration-ms="556" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@3349e9bb]" started-at="2024-09-17T07:40:21 ICT" name="openChrome" finished-at="2024-09-17T07:40:48 ICT" duration-ms="26452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="handleIframeZalo()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@3349e9bb]" started-at="2024-09-17T07:40:48 ICT" name="handleIframeZalo" finished-at="2024-09-17T07:40:50 ICT" duration-ms="2070" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleIframeZalo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@3349e9bb]" started-at="2024-09-17T07:40:50 ICT" name="closeBrowser" finished-at="2024-09-17T07:40:52 ICT" duration-ms="2047" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.Day17_BTVN_TestSuite -->
+      <class name="automation.testsuite.Day18_BTVN2_TestSuit">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:automation.testsuite.Day18_BTVN2_TestSuit@3c19aaa5]" started-at="2024-09-17T07:39:53 ICT" name="initDriver" finished-at="2024-09-17T07:40:02 ICT" duration-ms="9046" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="checkMessage()[pri:0, instance:automation.testsuite.Day18_BTVN2_TestSuit@3c19aaa5]" started-at="2024-09-17T07:40:02 ICT" name="checkMessage" finished-at="2024-09-17T07:40:05 ICT" duration-ms="3335" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMessage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day18_BTVN2_TestSuit@3c19aaa5]" started-at="2024-09-17T07:40:05 ICT" name="closeBrowser" finished-at="2024-09-17T07:40:06 ICT" duration-ms="430" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.Day18_BTVN2_TestSuit -->
+      <class name="automation.testsuite.Day18_BTVN1_TestSuit">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:automation.testsuite.Day18_BTVN1_TestSuit@222545dc]" started-at="2024-09-17T07:39:36 ICT" name="initDriver" finished-at="2024-09-17T07:39:50 ICT" duration-ms="13619" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="checkZalo()[pri:0, instance:automation.testsuite.Day18_BTVN1_TestSuit@222545dc]" started-at="2024-09-17T07:39:50 ICT" name="checkZalo" finished-at="2024-09-17T07:39:52 ICT" duration-ms="2351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkZalo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day18_BTVN1_TestSuit@222545dc]" started-at="2024-09-17T07:39:52 ICT" name="closeBrowser" finished-at="2024-09-17T07:39:53 ICT" duration-ms="564" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.Day18_BTVN1_TestSuit -->
+    </test> <!-- Regression test test suite on chrome -->
+    <test started-at="2024-09-17T07:40:52 ICT" name="Regression test test suite on firefox" finished-at="2024-09-17T07:42:12 ICT" duration-ms="80185">
+      <class name="automation.testsuite.Day17_BTVN_TestSuite">
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@6b2ea799]" started-at="2024-09-17T07:41:35 ICT" name="openChrome" finished-at="2024-09-17T07:41:43 ICT" duration-ms="7824" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="handleIframeMessage()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@6b2ea799]" started-at="2024-09-17T07:41:43 ICT" name="handleIframeMessage" finished-at="2024-09-17T07:41:54 ICT" duration-ms="11587" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleIframeMessage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@6b2ea799]" started-at="2024-09-17T07:41:54 ICT" name="closeBrowser" finished-at="2024-09-17T07:41:55 ICT" duration-ms="1051" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method is-config="true" signature="openChrome()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@6b2ea799]" started-at="2024-09-17T07:41:55 ICT" name="openChrome" finished-at="2024-09-17T07:42:03 ICT" duration-ms="7759" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openChrome -->
+        <test-method signature="handleIframeZalo()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@6b2ea799]" started-at="2024-09-17T07:42:03 ICT" name="handleIframeZalo" finished-at="2024-09-17T07:42:11 ICT" duration-ms="8321" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- handleIframeZalo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day17_BTVN_TestSuite@6b2ea799]" started-at="2024-09-17T07:42:11 ICT" name="closeBrowser" finished-at="2024-09-17T07:42:12 ICT" duration-ms="817" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.Day17_BTVN_TestSuite -->
+      <class name="automation.testsuite.Day18_BTVN2_TestSuit">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:automation.testsuite.Day18_BTVN2_TestSuit@5e0e82ae]" started-at="2024-09-17T07:41:15 ICT" name="initDriver" finished-at="2024-09-17T07:41:30 ICT" duration-ms="14784" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="checkMessage()[pri:0, instance:automation.testsuite.Day18_BTVN2_TestSuit@5e0e82ae]" started-at="2024-09-17T07:41:30 ICT" name="checkMessage" finished-at="2024-09-17T07:41:33 ICT" duration-ms="3357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkMessage -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day18_BTVN2_TestSuit@5e0e82ae]" started-at="2024-09-17T07:41:33 ICT" name="closeBrowser" finished-at="2024-09-17T07:41:35 ICT" duration-ms="1610" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.Day18_BTVN2_TestSuit -->
+      <class name="automation.testsuite.Day18_BTVN1_TestSuit">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:automation.testsuite.Day18_BTVN1_TestSuit@30c15d8b]" started-at="2024-09-17T07:40:52 ICT" name="initDriver" finished-at="2024-09-17T07:41:09 ICT" duration-ms="16714" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initDriver -->
+        <test-method signature="checkZalo()[pri:0, instance:automation.testsuite.Day18_BTVN1_TestSuit@30c15d8b]" started-at="2024-09-17T07:41:09 ICT" name="checkZalo" finished-at="2024-09-17T07:41:13 ICT" duration-ms="3942" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkZalo -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:automation.testsuite.Day18_BTVN1_TestSuit@30c15d8b]" started-at="2024-09-17T07:41:13 ICT" name="closeBrowser" finished-at="2024-09-17T07:41:15 ICT" duration-ms="2391" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- automation.testsuite.Day18_BTVN1_TestSuit -->
+    </test> <!-- Regression test test suite on firefox -->
+  </suite> <!-- TestSuite -->
 </testng-results>

@@ -3,12 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="automation.testsuite.Day15_TestSuite_BTVN">
+      <class name="automation.testsuite.Day18_BTNV2_TestSuit">
         <methods>
-          <include name="UpdatePasswordSuccessfully"/>
           <include name="openChrome"/>
+          <include name="checkMessage"/>
+          <include name="closeBrowser"/>
         </methods>
-      </class> <!-- automation.testsuite.Day15_TestSuite_BTVN -->
+      </class> <!-- automation.testsuite.Day18_BTNV2_TestSuit -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

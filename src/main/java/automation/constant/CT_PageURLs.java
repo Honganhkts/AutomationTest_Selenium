@@ -14,6 +14,10 @@ public class CT_PageURLs {
 	public static String URL_AUTOMATIONTESTING="https://demo.automationtesting.in/Alerts.html";
 	public static String URL_SELENIUM_PRACTISE="http://seleniumpractise.blogspot.com/2019/01/alert-demo.html";
 	public static String URL_GURU99_2="https://demo.guru99.com/test/delete_customer.php";
-
+	public static String URL_GURU99_3="https://demo.guru99.com/popup.php";
+	public static String URL_CODESTAR_2="https://codestar.vn/";
+	public static String URL_MEDIAMART = "https://mediamart.vn ";
+	public static String URL_DIEMMAYHUNGANH = "https://dienmaynhapkhaugiare.com.vn";
+	public static String URL_BEPANTOAN = "https://bepantoan.vn/";
 
 }

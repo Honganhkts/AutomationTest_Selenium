@@ -8,7 +8,10 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
+import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
 import automation.common.CommonBase;
@@ -22,14 +25,20 @@ public class Day14_BTVN extends CommonBase {
 	RegisterPageFactory_Alada register;
 	LoginPageFactory__Alada login;
 	ChangeInformationUserPageFactory_Alada ChangeInformationUser;
+	//@BeforeMethod
 	@BeforeMethod
-	public void openChrome() {
-		driver = initChromeDriver(CT_PageURLs.URL_ALADA);
+	@Parameters("browser")
+	public void initDriver ( @Optional("firefox")  String browser) {
+		setupDriver(browser);
+		driver.get(CT_PageURLs.URL_ALADA);
 	}
+//	public void openChrome() {
+//		driver = initChromeDriver(CT_PageURLs.URL_ALADA);
+//	}
 	@Test(priority = 1)
 	public void RegisterSuccessfully() throws InterruptedException {
 		register = new RegisterPageFactory_Alada(driver);
-		register.RegisterPageFactoryFunction("Hoanh","anhdth10112@yopmail.com", "anhdth10112@yopmail.com","Honganh2610!", "Honganh2610!","0121212121");
+		register.RegisterPageFactoryFunction("Hoanh","anhdth101121@yopmail.com", "anhdth101121@yopmail.com","Honganh2610!", "Honganh2610!","0121212121");
 		Thread.sleep(5000);
 		assertTrue(driver.findElement(By.xpath("(//a[text()='Khóa học của tôi'])[1]")).isDisplayed());
 	}
@@ -46,10 +55,14 @@ public class Day14_BTVN extends CommonBase {
 	@Test(priority = 3)
 	public void loginFunction() {
 		login = new LoginPageFactory__Alada(driver);
-		login.LoginFunction("anhdth10112@yopmail.com", "Honganh2610!1");
+		login.LoginFunction("anhdth101121@yopmail.com", "Honganh2610!");
 		WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(10));
 		assertTrue(driver.findElement(By.xpath("(//a[text()='Khóa học của tôi'])[1]")).isDisplayed());
 		
+	}
+	@AfterMethod
+	public void closeBrowser() {
+		driver.close();
 	}
 		
 }
