@@ -51,6 +51,7 @@ public class CommonBase {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(initWaitTime));
 		return driver;
 	}
+	
 	public WebDriver setupDriver(String browserName) {
 		switch(browserName.trim().toLowerCase())
 		{
